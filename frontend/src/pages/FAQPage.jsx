@@ -72,7 +72,7 @@ const Faq = () => {
             <div className="mt-4">
               <p className="text-base text-gray-500">
                 Bạn có thể liên hệ với tôi qua Email:
-                <b> luanvanct553@gmail.com</b> nếu có vướng mắc hay điều gì muốn
+                <b> ctphucv@gmail.com</b> nếu có vướng mắc hay điều gì muốn
                 nói nhé.
               </p>
             </div>
