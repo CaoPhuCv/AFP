@@ -12,7 +12,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
   cloudinary,
   params: {
-    folder: "LuanvanCT553", // Thay đổi tên thư mục tải lên theo ý muốn
+    folder: "AFP", // Thay đổi tên thư mục tải lên theo ý muốn
     allowed_formats: ["jpg", "jpeg", "png"],
     transformation: [{ width: 500, height: 500, crop: "limit" }],
   },

@@ -71,7 +71,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="py-3 px-0 text-center text-white bg-black">
-        Copyright © 2023 AGRISTORE
+        Copyright © 2024 HOANGPHANAFP
       </div>
 
       {/* <div

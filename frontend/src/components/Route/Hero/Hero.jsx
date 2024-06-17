@@ -25,21 +25,21 @@ const Hero = () => {
     {
       imageUrl:
         "url(https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)",
-      title: "AGRI STORE",
+      title: "HOANG PHAN AFP",
       description:
         "Chào mừng bạn đến với chúng tôi! Ở đây, chúng tôi mang đến một trải nghiệm độc đáo liên quan đến nông nghiệp hiện đại, kết hợp công nghệ và tình yêu đối với việc trồng trọt, chăm sóc cây trồng và nuôi dưỡng động vật. Hãy khám phá cùng chúng tôi!",
     },
     {
       imageUrl:
         "url(https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
-      title: "AGRI STORE",
+      title: "HOANG PHAN AFP",
       description:
         "Sản phẩm đa dạng, nhiều loại khác nhau trên thị trường, chúng tôi mang đến một thiên đường sản phẩm về nông nghiệp hiện đại. Hãy khám phá cùng chúng tôi!",
     },
     {
       imageUrl:
         "url(https://images.unsplash.com/photo-1565102127622-df163cfbdaa4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
-      title: "AGRI STORE",
+      title: "HOANG PHAN AFP",
       description:
         "Chính sách bảo hành hợp lý, chăm sóc khách hàng tuyệt vời, 24/7 mỗi khi khách cần đến. Đó là những tiêu chí hàng đầu của hệ thống chúng tôi. Hãy trải nghiệm mua sắm cùng chúng tôi!",
     },
