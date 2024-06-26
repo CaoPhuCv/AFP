@@ -1,5 +1,5 @@
 import React from "react";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import styles from "../../../styles/styles";
 
@@ -19,7 +19,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Hero = () => {
-  const { isSeller } = useSelector((state) => state.seller);
+  // const { isSeller } = useSelector((state) => state.seller);
 
   const slideData = [
     {
@@ -88,7 +88,7 @@ const Hero = () => {
                       </span>
                     </div>
                   </Link>
-                  {isSeller && isSeller ? null : (
+                  {/* {isSeller && isSeller ? null : (
                     <Link to="/shop-create">
                       <div
                         className={`${styles.button} mt-5 relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0`}
@@ -98,7 +98,7 @@ const Hero = () => {
                         </span>
                       </div>
                     </Link>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>
