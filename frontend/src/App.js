@@ -87,8 +87,10 @@ const App = () => {
     getStripeApikey();
   }, []);
 
+  const basename = process.env.NODE_ENV === 'production' ? '/AFP' : '';
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       {stripeApikey && (
         <Elements stripe={loadStripe(stripeApikey)}>
           <Routes>

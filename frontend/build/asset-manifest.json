@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/AFP/static/css/main.39ed20d9.css",
+    "main.js": "/AFP/static/js/main.1b04ed2d.js",
+    "static/js/787.cda612ba.chunk.js": "/AFP/static/js/787.cda612ba.chunk.js",
+    "static/media/logo.png": "/AFP/static/media/logo.9085dd3a38d6453e3731.png",
+    "static/media/warrantyImage.png": "/AFP/static/media/warrantyImage.1734c4c7e4b3be796355.png",
+    "index.html": "/AFP/index.html",
+    "main.39ed20d9.css.map": "/AFP/static/css/main.39ed20d9.css.map",
+    "main.1b04ed2d.js.map": "/AFP/static/js/main.1b04ed2d.js.map",
+    "787.cda612ba.chunk.js.map": "/AFP/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39ed20d9.css",
+    "static/js/main.1b04ed2d.js"
+  ]
+}
