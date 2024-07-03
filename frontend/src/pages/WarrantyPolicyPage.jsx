@@ -35,19 +35,19 @@ const Warranty = () => {
               </p>
               <p className="mt-0 mb-4">
                 Quy định các trường hợp bảo hành và không được bảo hành của sản
-                phẩm máy nông nghiệp do AGRISTORE cung cấp
+                phẩm máy nông nghiệp do HOÀNG PHAN AFP cung cấp
               </p>
               <p className="mt-0 mb-4">
                 <strong>2. ÁP DỤNG:</strong>
               </p>
               <p className="mt-0 mb-4">
-                Quy định này áp dụng cho các sản phẩm của AGRISTORE có ngày sản
+                Quy định này áp dụng cho các sản phẩm của HOÀNG PHAN AFP có ngày sản
                 xuất trên tem bảo hành từ tháng 1/2023.
               </p>
               <p className="mt-0 mb-4">
                 <strong>3. THỜI GIAN BẢO HÀNH:</strong>
               </p>
-              <img src={warrantyImage} alt="warranty" />
+              {/* <img src={warrantyImage} alt="warranty" /> */}
               <p className="mt-0 mb-4">
                 <strong>4. ĐIỀU KIỆN BẢO HÀNH SẢN PHẨM:</strong>
               </p>
@@ -82,7 +82,7 @@ const Warranty = () => {
                     <em>Đối với phí vận chuyển</em>
                   </strong>
                   &nbsp;: Khách hàng&nbsp;vui lòng thanh toán cước phí khi gửi
-                  sản phẩm đến AGRISTORE&nbsp;. Sau khi đã sửa chữa và thay thế
+                  sản phẩm đến HOÀNG PHAN AFP&nbsp;. Sau khi đã sửa chữa và thay thế
                   sản phẩm bảo hành xong, chúng tôi sẽ gửi trả sản phẩm đến tận
                   tay khách hàng (phí gửi trả hàng chúng tôi sẽ thanh
                   toán)&nbsp;.

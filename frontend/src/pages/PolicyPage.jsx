@@ -25,15 +25,14 @@ const Policy = () => {
           <h1
             className={`${styles.productTitle} text-[30px] text-center my-4 mt-8 uppercase`}
           >
-            CHÀO MỪNG QUÝ KHÁCH ĐẾN VỚI WEBSITE CHÍNH THỨC CỦA AGRISTORE
+            CHÀO MỪNG QUÝ KHÁCH ĐẾN VỚI WEBSITE CHÍNH THỨC CỦA CÔNG TY TNHH HOÀNG PHAN AFP
           </h1>
 
           <div className="mx-auto flex items-center">
             <div className="p-8 pt-0">
               {/* <p className="text-[18px] text-[#1b4462] text-justify leading-8"></p> */}
               <p className="mt-0 mb-4">
-                AGRISTORE – CHUỖI SIÊU THỊ NÔNG NGHIỆP HÀNG ĐẦU VIỆT NAM
-                Agristore ra đời từ mong muốn phục vụ được nhu cầu về vật tư
+                HOÀNG PHAN AFP ra đời từ mong muốn phục vụ được nhu cầu về vật tư
                 nông nghiệp – Tư vấn kỹ thuật cho người nông dân làm nông nghiệp
                 .
               </p>
@@ -46,7 +45,7 @@ const Policy = () => {
               </p>
               <p className="mt-0 mb-4">
                 <span className="text-[14px]">
-                  Đội ngũ nhân viên tư vấn&nbsp;của AGRISTORE luôn hoạt động
+                  Đội ngũ nhân viên tư vấn&nbsp;của HOÀNG PHAN AFP luôn hoạt động
                   24/7 (cả cả chủ nhật và ngày lễ)&nbsp;để đáp ứng nhu cầu tư
                   vấn, khiếu nại của khách hàng .&nbsp;&nbsp;
                 </span>

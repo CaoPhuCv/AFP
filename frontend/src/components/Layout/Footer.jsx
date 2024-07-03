@@ -26,7 +26,7 @@ const Footer = () => {
         </ul>
 
         <ul className="text-center lg:text-start">
-          <h1 className="mb-1 font-semibold text-[20px]">AgriStore</h1>
+          <h1 className="mb-1 font-semibold text-[20px]">HOÀNG PHAN AFP</h1>
           {footerProductLinks.map((link, index) => (
             <li key={index}>
               <Link

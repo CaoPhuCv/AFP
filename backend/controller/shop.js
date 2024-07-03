@@ -49,7 +49,7 @@ router.post("/create-shop", upload.single("file"), async (req, res, next) => {
       await sendMail({
         email: seller.email,
         subject: "Kích hoạt tài khoản cửa hàng",
-        message: `Xin chào ${seller.name}, Vui lòng nhấn vào liên kết để xác minh email đăng ký " Trở thành người bán" trên AgriStore: ${activationUrl}`,
+        message: `Xin chào ${seller.name}, Vui lòng nhấn vào liên kết để xác minh email đăng ký " Trở thành người bán" trên HOÀNG PHAN AFP: ${activationUrl}`,
       });
       res.status(201).json({
         success: true,

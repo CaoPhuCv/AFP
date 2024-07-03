@@ -24,7 +24,7 @@ const About = () => {
         <h1
             className={`${styles.productTitle} text-[24px] text-center my-4 mt-8 uppercase`}
           >
-            AGRISTORE – HỆ THỐNG CHUYÊN CUNG CẤP CÁC MẶT HÀNG NÔNG NGHIỆP 
+            HOÀNG PHAN AFP – HỆ THỐNG CHUYÊN CUNG CẤP CÁC MẶT HÀNG NÔNG NGHIỆP 
           </h1>
           <div className="mx-auto flex items-center">
           <div className="p-8 pt-0">
