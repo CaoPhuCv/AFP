@@ -8,7 +8,7 @@ const path = require("path");
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://afp-server-gc3f.onrender.com",
     credentials: true,
   })
 );
