@@ -8,7 +8,7 @@ const path = require("path");
 
 app.use(
   cors({
-    origin: "https://afp-server-gc3f.onrender.com",
+    origin: "https://hoangphanafp.netlify.app/",
     credentials: true,
   })
 );
