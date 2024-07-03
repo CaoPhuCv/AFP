@@ -47,8 +47,8 @@ router.post("/create-user", upload.single("file"), async (req, res, next) => {
 
     const activationToken = createActivationToken(user);
 
-    const activationUrl = `https://afp-server-gc3f.onrender.com/activation/${activationToken}`;
-
+    // const activationUrl = `https://afp-server-gc3f.onrender.com/activation/${activationToken}`;
+    const activationUrl = `http://localhost:3000/activation/${activationToken}`;
     try {
       await sendMail({
         email: user.email,
