@@ -9,6 +9,7 @@ const path = require("path");
 app.use(
   cors({
     origin: "https://hoangphanafp.netlify.app/",
+    // origin: "http://localhost:3000",
     credentials: true,
   })
 );
