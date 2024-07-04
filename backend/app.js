@@ -18,10 +18,6 @@ app.get("/", (req, res) => {
   res.send("Welcome to the Home Page");
 });
 
-app.use((req, res, next) => {
-  res.status(404).send("Cannot GET " + req.originalUrl);
-});
-
 app.use(express.json());
 app.use(cookieParser());
 app.use("/", express.static(path.join(__dirname, "./uploads")));
