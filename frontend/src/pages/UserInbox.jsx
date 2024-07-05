@@ -9,7 +9,7 @@ import socketIO from "socket.io-client";
 import { format } from "timeago.js";
 import { server } from "../server";
 import styles from "../styles/styles";
-const ENDPOINT = "https://afp-server-gc3f.onrender.com";
+const ENDPOINT = "https://afp-server-gc3f.onrender.com/api/v2/";
 const socketId = socketIO(ENDPOINT, { transports: ["websocket"] });
 
 const UserInbox = () => {
