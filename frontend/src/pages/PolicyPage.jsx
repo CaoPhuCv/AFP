@@ -33,13 +33,13 @@ const Policy = () => {
               {/* <p className="text-[18px] text-[#1b4462] text-justify leading-8"></p> */}
               <p className="mt-0 mb-4">
                 HOÀNG PHAN AFP ra đời từ mong muốn phục vụ được nhu cầu về vật tư
-                nông nghiệp – Tư vấn kỹ thuật cho người nông dân làm nông nghiệp
+                nông nghiệp – Tư vấn kỹ thuật cho người nông dân.
                 .
               </p>
               <p className="mt-0 mb-4">
                 <span className="text-[14px]">
                   <strong>
-                    <span>1. Tư vấn trước và sau bán hàng</span>
+                    <span>1. Luôn đồng hành khi người nông dân cần</span>
                   </strong>
                 </span>
               </p>
@@ -53,19 +53,19 @@ const Policy = () => {
               <p className="mt-0 mb-4">
                 <span className="text-[14px]">
                   <span>
-                    <strong>2. Thanh toán an toàn và tiện lợi</strong>
+                    <strong>2. Đội ngũ kỹ thuật giàu kinh nghiệm, luôn tâm quyết với nền nông nghiệp</strong>
                   </span>
                 </span>
               </p>
               <p className="mt-0 mb-4">
                 <span className="text-[14px]">
                   <span>
-                    Người mua có thể tham khảo các phương thức thanh toán sau
-                    đây và lựa chọn áp dụng phương thức phù hợp:
+                    {/* Người mua có thể tham khảo các phương thức thanh toán sau
+                    đây và lựa chọn áp dụng phương thức phù hợp: */}
                   </span>
                 </span>
               </p>
-              <p className="mt-0 mb-4">
+              {/* <p className="mt-0 mb-4">
                 <span className="text-[14px]">
                   <span>
                     <strong>
@@ -83,12 +83,12 @@ const Policy = () => {
                     thu tiền tận nơi)
                   </span>
                 </span>
-              </p>
+              </p> */}
               <p className="mt-0 mb-4">
                 <span className="text-[14px]">
                   <strong>
                     <span class="wysiwyg-font-size-medium">
-                      3. Bảo hành và đổi trả linh hoạt
+                      3. Luôn có nhiều chương trình ưu đãi cho người nông dân
                     </span>
                   </strong>
                 </span>
@@ -99,6 +99,15 @@ const Policy = () => {
                     Chính sách bảo hành và đổi trả dài hạn&nbsp;giúp quý khách
                     an tâm sử&nbsp;dụng sản phẩm .&nbsp;
                   </span>
+                </span>
+              </p>
+              <p className="mt-0 mb-4">
+                <span className="text-[14px]">
+                  <strong>
+                    <span class="wysiwyg-font-size-medium">
+                      4. Luôn đặt uy tính lên hàng đầu
+                    </span>
+                  </strong>
                 </span>
               </p>
             </div>
