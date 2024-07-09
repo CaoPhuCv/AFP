@@ -181,7 +181,6 @@ router.get(
         success: true,
         message: "Đăng xuất thành công!",
       });
-      window.location.href = "/"; // Điều hướng về trang chủ
     } catch (error) {
       return next(new ErrorHandler(error.message, 500));
     }

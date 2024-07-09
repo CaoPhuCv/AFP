@@ -23,11 +23,11 @@ const ProfileSidebar = ({ setActive, active }) => {
       .get(`${server}/user/logout`, { withCredentials: true })
       .then((res) => {
         toast.success(res.data.message);
-        window.location.reload(true);
+        // window.location.reload(true);
         navigate("/login");
       })
       .catch((error) => {
-        console.log(error.response.data.message);
+        toast.error(error.response.data.message);
       });
   };
   return (
