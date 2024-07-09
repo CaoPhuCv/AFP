@@ -44,7 +44,7 @@ router.post("/create-shop", upload.single("file"), async (req, res, next) => {
     const activationToken = createActivationToken(seller);
 
     // const activationUrl = `http://localhost:3000/seller/activation/${activationToken}`;
-    const activationUrl = `https://afp-server-gc3f.onrender.com/seller/activation/${activationToken}`
+    const activationUrl = `https://hoangphanafp.netlify.app/seller/activation/${activationToken}`
 
     try {
       await sendMail({
@@ -181,6 +181,7 @@ router.get(
         success: true,
         message: "Đăng xuất thành công!",
       });
+      window.location.href = "/"; // Điều hướng về trang chủ
     } catch (error) {
       return next(new ErrorHandler(error.message, 500));
     }
