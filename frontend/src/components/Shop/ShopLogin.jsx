@@ -40,11 +40,11 @@ const ShopLogin = () => {
     <div>
       <div className={`${styles.section}`}>
         <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between">
-          <Link to="">
+          <Link to="/">
             <img
               src={logo}
               alt="logo"
-              className="max-w-[180px] max-h-[100px] object-contain"
+              className="max-w-[150px] max-h-[50px] object-contain"
             />
           </Link>
         </div>
@@ -151,12 +151,12 @@ const ShopLogin = () => {
                   ĐĂNG NHẬP
                 </button>
               </div>
-              <div className={`${styles.noramlFlex} w-full`}>
+              {/* <div className={`${styles.noramlFlex} w-full`}>
                 <h4>Bạn chưa có tài khoản?</h4>
                 <Link to="/shop-create" className="text-blue-600 pl-2">
                   Đăng ký ngay
                 </Link>
-              </div>
+              </div> */}
               <div className={`${styles.noramlFlex} w-full`}>
                 {/* <h4>Quay lại trang chủ?</h4> */}
                 <Link to="/" className="text-blue-600 pl-2">

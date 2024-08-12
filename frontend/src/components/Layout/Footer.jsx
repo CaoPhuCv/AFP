@@ -70,10 +70,11 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <div className="py-3 px-0 text-center text-white bg-black">
-        Copyright © 2024 HOANGPHANAFP
-      </div>
-
+      <Link to="/shop-login">
+        <div className="py-3 px-0 text-center text-white bg-black">
+          Copyright © 2024 HOANGPHANAFP
+        </div>
+      </Link>
       {/* <div
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
          text-center pt-2 text-gray-400 text-sm pb-8"

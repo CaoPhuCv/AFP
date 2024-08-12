@@ -431,13 +431,13 @@ const Header = ({ activeHeading }) => {
               </div>
 
               <Navbar active={activeHeading} />
-              <div className={`${styles.button} ml-4 !rounded-[4px]`}>
+              {/* <div className={`${styles.button} ml-4 !rounded-[4px]`}>
                 <Link to="/shop-create">
                   <h1 className="text-[#fff] flex items-center">
                     Tạo cửa hàng <IoIosArrowForward className="ml-1" />
                   </h1>
                 </Link>
-              </div>
+              </div> */}
               <br />
               <br />
               <br />

@@ -52,7 +52,7 @@ const Login = () => {
             />
           </Link>
 
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <span className="font-medium mt-1 mr-2 pr-2">
               Đăng nhập vào cửa hàng
             </span>
@@ -66,7 +66,7 @@ const Login = () => {
                 </h1>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div

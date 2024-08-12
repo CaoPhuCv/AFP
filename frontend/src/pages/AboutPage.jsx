@@ -138,11 +138,6 @@ const About = () => {
             <p className="mt-0 mb-4">
               <span className="text-[20px]">
                 <strong>
-                  <span>THÔNG TIN LIÊN HỆ THUỐC BẢO VỆ THỰC VẬT TẠI HẬU GIANG CỦA CHÚNG TÔI LÀ GÌ?</span>
-                </strong>
-              </span>
-              <span className="text-[20px]">
-                <strong>
                   <span>Mọi chi tiết xin liên hệ:</span>
                 </strong>
               </span>
@@ -153,21 +148,21 @@ const About = () => {
                   {/* <strong>1. Tư vấn sản phẩm</strong>:  */}
                   ---------------------------ooo0ooo-----------------------------------
 
-                  CÔNG TY TNHH HOÀNG PHAN AFP
+                  <p>CÔNG TY TNHH HOÀNG PHAN AFP</p>
 
-                  Địa chỉ: 443B, Ấp Tân Phú A, TT Cái Tắc,
+                  <p>Địa chỉ: 443B, Ấp Tân Phú A, TT Cái Tắc,</p>
 
-                  H.Châu Thành A, T. Hậu Giang
+                  <p>H.Châu Thành A, T. Hậu Giang</p>
 
-                  Hotline: 0293 655 77 99 -  0974 250 477
+                  <p>Hotline: 0293 655 77 99 -  0974 250 477</p>
 
-                  Email: agriphan007@mail.com
+                  <p>Email: agriphan007@mail.com</p>
 
-                  Website: hoangphanafp.com
+                  <p>Website: hoangphanafp.com</p>
 
-                  FaceBook: Hoangphan Afp
+                  <p>FaceBook: Hoangphan Afp</p>
 
-                  Hân hạnh được hợp tác, đồng hành cùng khách hàng đi đến thành công.
+                  <p>Hân hạnh được hợp tác, đồng hành cùng khách hàng đi đến thành công.</p>
                 </span>
               </span>
             </p>

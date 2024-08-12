@@ -185,65 +185,64 @@ export const brandingData = [
       </svg>
     )
   }
-];
-
+];  
 // categories data
 export const categoriesData = [
   {
     id: 1,
-    title: "Hạt giống",
+    title: "Thuốc trừ sâu",
     subTitle: "",
-    image_Url:
-      "https://images.unsplash.com/photo-1530836176759-510f58baebf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    // image_Url:
+    //   "https://images.unsplash.com/photo-1530836176759-510f58baebf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
   },
   {
     id: 2,
-    title: "Phân bón",
+    title: "Thuốc trừ bệnh",
     subTitle: "",
-    image_Url:
-      "https://vietnong.vn/wp-content/uploads/2022/07/bang-gia-phan-bon-npk.jpg"
+    // image_Url:
+    //   "https://vietnong.vn/wp-content/uploads/2022/07/bang-gia-phan-bon-npk.jpg"
   },
   {
     id: 3,
-    title: "Thuốc bảo vệ thực vật",
+    title: "Thuốc trừ cỏ",
     subTitle: "",
-    image_Url:
-      "https://tse2.mm.bing.net/th?id=OIP.GpMQ4Al-mfW-tNJEC3K9qAHaET&pid=Api&P=0&h=180"
+    // image_Url:
+    //   "https://tse2.mm.bing.net/th?id=OIP.GpMQ4Al-mfW-tNJEC3K9qAHaET&pid=Api&P=0&h=180"
   },
   {
     id: 4,
-    title: "Máy nông nghiệp",
+    title: "Thuốc ốc",
     subTitle: "",
-    image_Url:
-      "https://agridoctor.vn/sites/default/files/may-keo-nong-nghiep-1_2.jpg"
+    // image_Url:
+    //   "https://bizweb.dktcdn.net/thumb/grande/100/383/301/files/may-nong-nghiep.jpg?v=1602755538995"
   },
   {
     id: 5,
-    title: "Dụng cụ làm vườn",
+    title: "Phân bón",
     subTitle: "",
-    image_Url:
-      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    // image_Url:
+    //   "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
   },
   {
     id: 6,
     title: "Chậu, khay trồng",
     subTitle: "",
-    image_Url:
-      "https://images.unsplash.com/photo-1487268113661-a75c49688467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80"
+    // image_Url:
+    //   "https://images.unsplash.com/photo-1487268113661-a75c49688467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80"
   },
   {
     id: 7,
     title: "Đất sạch",
     subTitle: "",
-    image_Url:
-      "https://media.loveitopcdn.com/23464/dat-trong-rau-sach-tai-nha-hcm-q12.jpg"
+    // image_Url:
+    //   "https://media.loveitopcdn.com/23464/dat-trong-rau-sach-tai-nha-hcm-q12.jpg"
   },
   {
     id: 8,
     title: "Vật tư nông nghiệp",
     subTitle: "",
-    image_Url:
-      "https://file.hstatic.net/1000192210/file/vat-tu-nong-nghiep-1_ef657fefe8d948dda24f185b3e6c3dfd.jpg"
+    // image_Url:
+    //   "https://file.hstatic.net/1000192210/file/vat-tu-nong-nghiep-1_ef657fefe8d948dda24f185b3e6c3dfd.jpg"
   }
 ];
 
@@ -603,22 +602,22 @@ export const footerProductLinks = [
 
 export const footercompanyLinks = [
   {
-    name: "Hạt giống",
-    link: "products?category=Hạt giống"
+    name: "Thuốc trừ sâu",
+    link: "products?category=Thuốc trừ sâu"
   },
   {
-    name: "Phân bón",
-    link: "products?category=Phân bón"
+    name: "Thuốc trừ bệnh",
+    link: "products?category=Thuốc trừ bệnh"
   },
   {
-    name: "Thuốc bảo vệ thực vật",
-    link: "products?category=Thuốc bảo vệ thực vật"
+    name: "Thuốc trừ cỏ",
+    link: "products?category=Thuốc trừ cỏ"
   },
   {
-    name: "Máy nông nghiệp",
-    link: "products?category=Máy nông nghiệp"
+    name: "Thuốc ốc",
+    link: "products?category=Thuốc ốc"
   },
-  { name: "Dụng cụ làm vườn", link: "products?category=Dụng cụ làm vườn" },
+  { name: "Phân bón", link: "products?category=Phân bón" },
   {
     name: "Chậu, khay trồng",
     link: "products?category=Chậu, khay trồng"
