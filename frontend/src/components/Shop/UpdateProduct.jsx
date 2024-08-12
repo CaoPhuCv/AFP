@@ -100,6 +100,7 @@ const UpdateProduct = () => {
     setImages(updatedImages);
   };
 
+
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
   //   const updatedProductData = new FormData();
@@ -344,10 +345,10 @@ const UpdateProduct = () => {
                     className="h-[120px] w-[120px] object-cover m-2"
                   />
                   <button
-                    className="absolute top-0 right-0 p-1 bg-red-500 text-white rounded-full"
-                    onClick={() => handleRemoveImage(index)}
-                  >
-                    X
+                        onClick={() => handleRemoveImage(index)}
+                        className="bg-red-500 text-white rounded-md p-1 m-2"
+                      >
+                        Xóa
                   </button>
                 </div>
               ))}
