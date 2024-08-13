@@ -100,6 +100,25 @@ const UpdateProduct = () => {
     setImages(updatedImages);
   };
 
+  // const handleRemoveImage = async (index) => {
+  //   const imageUrlToRemove = images[index];
+  
+  //   try {
+  //     const response = await axios.post(`${server}/product/delete-image`, { imageUrl: imageUrlToRemove });
+  
+  //     if (response.data.success) {
+  //       const updatedImages = [...images];
+  //       updatedImages.splice(index, 1);
+  //       setImages(updatedImages);
+  //       toast.success("Xóa hình ảnh thành công!");
+  //     } else {
+  //       toast.error("Có lỗi xảy ra khi xóa hình ảnh!");
+  //     }
+  //   } catch (error) {
+  //     console.error("Lỗi khi xóa hình ảnh:", error);
+  //     toast.error("Có lỗi xảy ra khi xóa hình ảnh!");
+  //   }
+  // };
 
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
@@ -154,6 +173,7 @@ const UpdateProduct = () => {
       originalPrice,
       discountPrice,
       stock,
+      images,
       shopId: seller._id,
     };
 

@@ -244,8 +244,11 @@ router.put(
       if (req.files) {
         const files = req.files;
         const imageUrls = files.map((file) => file.path);
-        // productData.images = imageUrls;
-        productData.images = [...product.images, ...imageUrls];
+        // Nếu muốn thay thế hoàn toàn hình ảnh cũ
+        productData.images = imageUrls;
+    
+        // Hoặc nếu muốn giữ hình ảnh cũ và thêm hình ảnh mới
+        // productData.images = [...product.images, ...imageUrls];
       }
 
       // Cập nhật thông tin sản phẩm
@@ -280,6 +283,27 @@ router.post(
     }
   })
 );
+
+// router.post(
+//   "/delete-image",
+//   isSeller, // Chỉ người bán mới có thể xóa hình ảnh
+//   catchAsyncErrors(async (req, res, next) => {
+//     const { imageUrl } = req.body;
+    
+//     // Xóa hình ảnh từ file system
+//     const filePath = `uploads/${imageUrl}`;
+//     fs.unlink(filePath, (err) => {
+//       if (err) {
+//         return next(new ErrorHandler("Lỗi khi xóa hình ảnh!", 500));
+//       }
+//     });
+    
+//     res.status(200).json({
+//       success: true,
+//       message: "Xóa hình ảnh thành công!",
+//     });
+//   })
+// );
 
 // Lấy danh sách sản phẩm có tags
 router.get(
